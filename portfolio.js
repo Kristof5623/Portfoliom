@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 setTimeout(() => {
                     preloader.style.display = "none";
+                    document.body.classList.add('loaded');
                 }, 800);
 
             }, 800);
