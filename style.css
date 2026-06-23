@@ -187,5 +187,53 @@
         box-shadow: 0 14px 30px rgba(255, 122, 0, .14)
     }
 
+    .project-card-large {
+        padding: 24px
+    }
+
+    .project-tag {
+        color: var(--accent);
+        font-weight: 700;
+        letter-spacing: .12em;
+        text-transform: uppercase
+    }
+
+    .btn-project {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 18px;
+        background: linear-gradient(135deg, #ff7a00, #ffa84b);
+        color: #090909;
+        border-radius: 999px;
+        font-weight: 700;
+        transition: transform .18s
+    }
+
+    .btn-project:hover {
+        transform: translateY(-2px)
+    }
+
+    .timeline-item {
+        padding: 18px
+    }
+
+    .contact-section {
+        background: linear-gradient(180deg, rgba(22, 22, 22, .96), rgba(12, 12, 12, .96));
+        padding: 36px 24px
+    }
+
+    .huge-contact-title {
+        font-size: 2.2rem;
+        max-width: 720px;
+        margin-bottom: 20px
+    }
+
+    .contact-details {
+        display: grid;
+        gap: 12px
+    }
+
     
 
